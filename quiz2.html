@@ -1,69 +1,251 @@
-<html>
-<head>
-<title>Match the following : Level 1</title>
-<!--ANS=45132-->
-<link rel="stylesheet" href="x.css">
-</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
 
-<body>
+  <body>
+    <div id="header_main">
+      <pre><h2>VIRTUAL LABS: SOFTWARE ENGINEERING - FUNCTIONAL USE CASES</h2></pre>
+    </div>
 
-<h2>
-MATCH THE FOLLOWING
-</h2>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="index.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F5.png?v=1604268549935"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  Introduction
+                </center>
+              </span></a
+            >
+          </li>
+          <li>
+            <a href="Theory.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F7.png?v=1604268957184"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  Theory
+                </center>
+              </span></a
+            >
+          </li>
+          <li>
+            <a href="CaseStudy.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F4.png?v=1604268538415"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  Case Study
+                </center>
+              </span></a
+            >
+          </li>
+          <li>
+            <a href="Selfeval.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F3.png?v=1604268534574"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  Exercises
+                </center>
+              </span></a
+            >
+          </li>
+          <li>
+            <a href="simul.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F2.png?v=1604268530601"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  Simulation
+                </center>
+              </span></a
+            >
+          </li>
+          <li>
+            <a href="ref.html">
+              <span>
+                <center>
+                  <img
+                    src="https://cdn.glitch.com/4c13ff70-b984-4f5b-aef6-64e38ef0e78b%2F7.png?v=1604268957184"
+                    height="50px"
+                    weidth="50px"
+                  /><br />
+                  References
+                </center>
+              </span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+  
+<div>
+    <pre><h2>Answer these questions in one word.
+</h2></pre>
+    <form>
+        <p>
+          Answer these questions in one word.
+        </p>
 
-<table style="width:60%">
-  <tr>
-    <td>(a)</td>
-    <td>Diagram view the whole system as a block box</td>
-    <td>(1)<td>
-    <td>Activity Diagram</td>
-  </tr>
-  <tr>
-    <td>(b)</td>
-    <td>The scenario of a use case is graphically represented using</td>
-    <td>(2)<td>
-    <td>Use Cases</td>
+        <label
+          >Which uml diagram represents the interaction of the user with the
+          software but tells nothing about the internal working of the
+          software?</label
+        ><br />
+        <input id="a0" />
+        <button type="button" onclick="submit0()">check</button>
+        <p id="out0"></p>
+        <!--         usecase diagram -->
 
+        <label
+          >what is the nature(dynamic/static/both) of Use case diagrams</label
+        ><br />
+        <input id="a1" />
+        <button type="button" onclick="submit1()">check</button>
+        <p id="out1"></p>
+        <!--         answer- dynamic -->
 
-</tr>
-  <tr>
-    <td>(c)</td>
-    <td>The behavior of a system is modeled using </td>
-    <td>(3)<td>
-    <td>Actor</td>
-</tr>
+        <label
+          >which entity interacts with use case i.e. system functions.</label
+        ><br />
+        <input id="a2" />
+        <button type="button" onclick="submit2()">check</button>
+        <p id="out2"></p>
+        <!--         answer-actor -->
 
-<tr>
-<td>(d)</td>
-<td>Role that plays within a system</td>
-<td>(4)<td>
-<td>Use Case Diagram</td>
-</tr>
+        <label
+          >what is the shape of visual representation of use cases in use case
+          diagram.</label
+        ><br />
+        <input id="a3" />
+        <button type="button" onclick="submit3()">check</button>
+        <p id="out3"></p>
+        <!--         oval -->
 
-<tr>
-<td>(e)</td>
-<td>Identify high-level services provided by the system</td>
-<td>(5)<td>
-<td>Sequence Diagram</td>
-</tr>
-<br><br><br>
-</table>
-<br><br>
-Enter numbers to match with the correct option:<br><br>
-(a) : <input id="1"><br>
-(b) : <input id="2"><br>
-(c) : <input id="3"><br>
-(d) : <input id="4"><br>
-(e) : <input id="5"><br>
-<br>
+        <label>
+          What type of core-relationship is represented by filled diamong
+          symbol. </label
+        ><br />
+        <input id="a4" />
+        <button type="button" onclick="submit4()">check</button>
+        <p id="out4"></p>
+        <!--           aggregation -->
+      </form>
+    
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+      <div style="background-color: #6351ce;">
+        <div class="container">
+          <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
+            <!-- Grid column -->
+            <div
+              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
+            >
+              
+            </div>
+            <!-- Grid column -->
 
-<p id="demo"></p>
-<button type="button" onclick="myFunction()">Submit</button>
+           
+          </div>
+          <!-- Grid row-->
+        </div>
+      </div>
 
-<script src="quiz2.js">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+           
+            <h6 class="text-uppercase font-weight-bold">Knwo more about virtal labs</h6>
+             <hr
+              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px;"
+            />
+            <p>
+              Its main objective is to provide remote-access to Labs in various disciplines of Science and Engineering. These Virtual Labs would cater to students at the undergraduate level, post graduate level as well as to research scholars.
+            </p>
+          </div>
+          <!-- Grid column -->
 
-</script>
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+            <hr
+              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px;"
+            />
+            <p>
+              <a href="http://vlabs.iitkgp.ac.in/se/3/">IIT-KGP V-Labs</a>
+            </p>
+            <p>
+              <a href="#!">Software Engineering</a>
+            </p>
+            <p>
+              <a href="#!">Uml Diagrams</a>
+            </p>
+            <p>
+              <a href="#!">Draw.io</a>
+            </p>
+          </div>
+          <!-- Grid column -->
 
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Creaters</h6>
+            <hr
+              class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+              style="width: 60px;"
+            />
+            <p><i class="fa fa-home mr-3"></i>Anchal Soni(2020201099)</p>
+            <p><i class="fa fa-phone mr-3"></i> Aayushi Nigam(2020201)</p>
+            <p><i class="fa fa-envelope mr-3"></i> Somya Lalwani(2020201)</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
 
-</body>
+    </footer>
+    <!-- Footer -->
+  </body>
 </html>
