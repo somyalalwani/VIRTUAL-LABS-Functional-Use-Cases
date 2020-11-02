@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UML TRIAL</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://unpkg.com/gojs@2.1.28/release/go.js"></script>
+    <script src="gojsscript.js"></script>
+    <script src="hints.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h2>Use Case case study</h2>
+<div>
+    This proposed software system is to be designed to allow passengers to check in and get the boarding pass for flying. The baggage can also be checked-in, which is optional. The check-in can happen by the counter clerk or by the passenger using a kiosk. The baggage must be checked for its weight and if more than the specified value, must be charged extra.
+The system should allow individuals as well as a group of passengers to check-in through the system. The boarding pass can be issued through this system. Passengers below 4 yrs need not have tickets. The airport also allows provision for the special needs of passengers like wheelchairs etc.
+The system should also be able to capture the fact that the baggage for a passenger is screened by security.
+
+</div>
+<br>
+<div>
+    <label>Enter actors:</label>
+    <input type="text" id="a1" name="a1">
+    <br><br>
+    <button onclick="checkactor(document.getElementById('a1').value)">Check actor</button>
+    
+    <br><br><br>
+
+    <label>Enter use cases:</label>
+    <input type="text" id="a2" name="a2">
+    <br><br>
+    <button onclick="check_use_cases(document.getElementById('a2').value)">Check use case</button>
+
+</div>
+<br>
+<div>
+    <button type="submit" onclick="hint1()">Get hint 1</button>
+    <button type="submit" onclick="hint2()">Get hint 2</button>
+    <button type="submit" onclick="hint3()">Get hint 3</button>
+</div>
+   </body>
+</html>
