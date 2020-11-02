@@ -75,7 +75,7 @@ var user_actors=[];
 function checkactor(y)
 {  
     var x=y.toLowerCase();
-    if(arraysEqual(user_actors,actors))
+    if(arraysEqual(user_actors,actors)) <!--When all possible actors are checked it notifies the user -->
     {
         alert("You have entereed all possible actors!");
         return;
@@ -98,12 +98,12 @@ function checkactor(y)
 var use_cases=["Check-in","Validate PNR","Validate ID","special needs","Check weights","Calculate overweight charges","Print boarding pass"];
 var user_use_cases=[];
 
-function check_use_cases(y)
+function check_use_cases(y) 
 {  
     var x=y.toLowerCase();
-    if(arraysEqual(use_cases,user_use_cases))
+    if(arraysEqual(use_cases,user_use_cases)) <!--When all possible actors are checked it notifies the user -->
     {
-        alert("You have entereed all possible use cases!");
+        alert("You have entereed all possible use cases!"); 
         return; 
     }
     else
