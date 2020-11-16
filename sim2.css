@@ -1,0 +1,32 @@
+.left {
+            padding:10px;margin:10px; -moz-user-select:none;
+            background-color: #6633FF; width:70px; height:50px;
+            text-align: center;
+}
+
+.ansBox {
+	padding:10px;margin:10px;
+	background-color: #6633FF; width:70px; height:50px;
+	text-align: center;
+	align-content: center;
+}
+#outerdiv {
+	height: 700px;
+}
+#dragndrop {
+	float :left;
+	width: 50%;
+	height: 500px;
+	
+}
+#ansdragndrop {
+	float : right;
+	width: 50%;
+	height: 500px;
+
+}
+#anotherdiv{
+	width: 100%;
+}
+
+
