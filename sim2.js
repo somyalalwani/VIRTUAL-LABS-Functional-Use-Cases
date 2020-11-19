@@ -98,7 +98,6 @@ function dragDrop4(ev) {
     document.getElementById('actor4').innerHTML = document.getElementById(src).innerHTML;
     ev.stopPropagation();
     return false;
-<<<<<<< HEAD
 }
 
 var actors=["cashier","chef","customer","waiter"];
@@ -129,6 +128,4 @@ function check_actors()
             window.location.reload();
         }
     }
-=======
->>>>>>> bfa8dd4cd174cb6d9cb1da54fa4abf202c20d06c
 }
