@@ -2,10 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title></title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="sim2.css" />
     <script src="sim2.js"></script>
@@ -19,9 +16,8 @@
 
   <body>
     <div id="header_main">
-      <pre
-        class="myDiv"
-      ><h2><b>VIRTUAL LABS: SOFTWARE ENGINEERING - FUNCTIONAL USE CASES</b></h2></pre>
+      <pre class="myDiv">
+        <h2><b>VIRTUAL LABS: SOFTWARE ENGINEERING - FUNCTIONAL USE CASES</b></h2></pre>
     </div>
 
     <nav class="navbar navbar-inverse">
@@ -116,17 +112,12 @@
     </nav>
 
     <div class="container">
-<!--       *********************************************************************** -->
-<!--      ****************************add your code here**************************** -->
-<!--       ******************************************************************** -->
-    
-       <h2>Case study - Restaurant Food Ordering System </h2>
-<div>
-    <p> Consider you're going out for a dinner to your favourite restaurant. Now think of what are all the steps you'll follow to eat the food here. </p>
-</div>
-
-<div>
-    <h3>Drag the correct actor and drop it in the answer box on the right</h3>
+      <h2>Case study - Restaurant Food Ordering System </h2>
+    <div>
+        <p> Consider you're going out for a dinner to your favourite restaurant. Now think of what are all the steps you'll follow to eat the food here. </p>
+    </div>
+    <div>
+        <h3>Drag the correct actor and drop it in the answer box on the right</h3>
         <div id="outerdiv">
             <div id="dragndrop">
                 <div class ="left" id="item1" draggable = "true" ondragstart = "return dragStart(event)">
@@ -163,78 +154,67 @@
         </div>
 
         <div id="anotherdiv">
-        <button class = "reset" onclick="check_actors()">Check actors</button>
-        <button class="reset" onclick="window.location.reload()">Reset</button>
-        
-        <br>
-        <hr class="solid">
-        <br>
-        <div id="diagram_div">
-        <h3> Try drawing a usecase diagram by filling in the details below </h3>
-       	<div class="diagram_inside_div">
-        <label> Enter actors : </label>
-        <input type="text" id="actor_diag" name="actorsfordiagram">
-        <button class="reset" onclick="add_actor(document.getElementById('actor_diag').value)">Add actor</button>
-        <br><br>
+          <button class = "reset" onclick="check_actors()">Check actors</button>
+          <button class="reset" onclick="window.location.reload()">Reset</button>
+          <br>
+          <hr class="solid">
+          <br>
+          <div id="diagram_div">
+            <h3> Try drawing a usecase diagram by filling in the details below </h3>
+            <div class="diagram_inside_div">
+              <label> Enter actors : </label>
+              <input type="text" id="actor_diag" name="actorsfordiagram">
+              <button class="reset" onclick="add_actor(document.getElementById('actor_diag').value)">Add actor</button>
+              <br><br>
+            </div>
+            <div class="diagram_inside_div">
+              <label>Enter use cases:</label>
+              <input type="text" id="usecase_diag" name="a2">
+              <button class="reset" onclick="add_usecase(document.getElementById('usecase_diag').value)">Add usecase</button>
+              <br><br>
+          </div>
+          <div class="diagram_inside_div">
+              <label> Enter relationship : </label> <br> <br>
+              <label>From : </label>
+              <input type="text" id="from_diag" name="actorsfordiagram">
+              <label>To : </label>
+              <input type="text" id="to_diag" name="actorsfordiagram">
+              <label>Relationship Type : </label>
+              <select id="rel_diag">
+                  <option value="normal">normal</option>
+                  <option value="includes">includes</option>
+                  <option value="extends">extends</option>
+              </select>
+
+              <button class="reset" onclick="add_relationship(document.getElementById('from_diag').value, document.getElementById('to_diag').value, document.getElementById('rel_diag').value)">Add relationship</button>
+              <br><br>
+          </div>
         </div>
-        <div class="diagram_inside_div">
-        <label>Enter use cases:</label>
-        <input type="text" id="usecase_diag" name="a2">
-        <button class="reset" onclick="add_usecase(document.getElementById('usecase_diag').value)">Add usecase</button>
-        <br><br>
+        <br>
+        <button  class="reset" type="submit" onclick="init()">Draw Diagram!</button>
+        <div id="myDiagramDiv"></div>
     </div>
-    <div class="diagram_inside_div">
-        <label> Enter relationship : </label> <br> <br>
-        <label>From : </label>
-        <input type="text" id="from_diag" name="actorsfordiagram">
-        <label>To : </label>
-        <input type="text" id="to_diag" name="actorsfordiagram">
-        <label>Relationship Type : </label>
-        <select id="rel_diag">
-          <option value="normal">normal</option>
-          <option value="includes">includes</option>
-          <option value="extends">extends</option>
-        </select>
-
-        <button class="reset" onclick="add_relationship(document.getElementById('from_diag').value, document.getElementById('to_diag').value, document.getElementById('rel_diag').value)">Add relationship</button>
-        <br><br>
-    </div>
-
-
-    </div>
-   <!-- <div>
-        <button type="submit" onclick="hint1()">Get hint 1</button>
-        <button type="submit" onclick="hint2()">Get hint 2</button>
-        <button type="submit" onclick="hint3()">Get hint 3</button>
-    </div>
-    <br> -->
-    <br>
-    <button  class="reset" type="submit" onclick="init()">Draw Diagram!</button>
-    <div id="myDiagramDiv"></div>
-</div>
-</div>
+  </div>
 </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small unique-color-dark">
-      <div style="background-color: #6351ce;">
-        <div class="container">
+ <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+  <div style="background-color: #6351ce;">
+      <div class="container">
           <!-- Grid row-->
           <div class="row py-4 d-flex align-items-center">
             <!-- Grid column -->
-            <div
-              class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0"
-            >
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
               <br />
             </div>
             <!-- Grid column -->
           </div>
           <!-- Grid row-->
         </div>
-      </div>
+    </div>
 
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left mt-5">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
         <!-- Grid row -->
         <div class="row mt-3">
           <!-- Grid column -->
