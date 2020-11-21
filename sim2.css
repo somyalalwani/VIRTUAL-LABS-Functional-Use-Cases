@@ -1,14 +1,28 @@
+.container {
+	margin-left: 20px;
+}
 .left {
-	padding:10px;margin:10px; -moz-user-select:none;
-    background-color: #6633FF; width:70px; height:50px;
+	padding:10px;
+	margin:10px; 
+	-moz-user-select:none;
+    background-color: #262626; 
+    width:90px; 
+    height:60px;
     text-align: center;
+    color:white;
+    border-radius: 5px;
 }
 
 .ansBox {
-	padding:10px;margin:10px;
-	background-color: #6633FF; width:70px; height:50px;
+	padding:10px;
+	margin:10px;
+	background-color: #262626; 
+	width:90px; 
+	height:60px;
+	color: white;
 	text-align: center;
 	align-content: center;
+	border-radius: 5px;
 }
 #outerdiv {
 
@@ -30,5 +44,53 @@
 	width: 100%;
 }
 
+.reset {
+	align-self: center;
+	background-color: grey;
+	border: none;
+	color:white;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+	margin: 5px;
+}
+
+.diagram_div{
+	align-self: center;
+	align-content : center;
+
+}
+
+.diagram_inside_div{
+	background-color: #262626;
+	padding: 10px;
+	
+}
+
+#myDiagramDiv{
+	width:700px;
+	height:600px;
+	border:2px solid black; 
+	margin: 10px;
+}
+
+input {
+	border-radius: 5px;
+	border-color: none;
+	color: black;
+}
+
+#rel_diagram {
+	border-radius: 5px;
+	border-color: none;
+}
+
+select option {
+	color: black;
+}
+
+label {
+	color: white;
+}
 
 
