@@ -19,3 +19,9 @@
 
 ## link to repository(Private)- 
 * `https://github.com/aayushinigam/SSD20-Project`
+
+## Branches :
+`master` - Complete work with latest code. <br/> 
+`aayushi` - Aayushi's work  <br/> 
+`anchal` - Anchal's work  <br/> 
+`somya` - Somya's work  <br/> 
