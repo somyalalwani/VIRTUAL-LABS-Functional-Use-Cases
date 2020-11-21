@@ -49,6 +49,7 @@ function hint2()
 }
 function hint3()
 {
+    
     h3p1();
     h3p2();
     h3p3();    
