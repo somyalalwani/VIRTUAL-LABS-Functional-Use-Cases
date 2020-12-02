@@ -22,6 +22,8 @@
 * https://github.com/somyalalwani/VIRTUAL-LABS-Functional-Use-Cases
 * https://github.com/aayushinigam/SSD2 (private)
 
+## Team presentation link
+* https://docs.google.com/presentation/d/179LLeuUuwPguN76W1bTDMK9I1ZR66xIU9ZVdQqmjn1k/edit?usp=sharing
 
 ## Branches :
 `master` - Complete work with latest code. <br/> 
