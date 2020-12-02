@@ -20,7 +20,7 @@
 
 ## link to repository(Private)- 
 * https://github.com/somyalalwani/VIRTUAL-LABS-Functional-Use-Cases
-* https://github.com/aayushinigam/SSD2
+* https://github.com/aayushinigam/SSD2 (private)
 
 
 ## Branches :
@@ -28,4 +28,3 @@
 `somya` - Somya's work  <br/> 
 `aayushi` - Aayushi's work  <br/> 
 `anchal` - Anchal's work  <br/> 
-
