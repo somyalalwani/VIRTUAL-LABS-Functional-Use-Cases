@@ -12,14 +12,16 @@
 * Anchal Soni - 2020201099
 
 ## Project Link
-* `https://ssd-pro-htmjss.glitch.me/`
-* `https://somyalalwani.github.io/VIRTUAL-LABS-Functional-Use-Cases/`
+* https://ssd-pro-htmjss.glitch.me/
+* https://somyalalwani.github.io/VIRTUAL-LABS-Functional-Use-Cases/
 
 ## You Tube Demo Link
 * https://youtu.be/tN56jUhtfWw
 
 ## link to repository(Private)- 
-* `https://github.com/aayushinigam/SSD20-Project`
+* https://github.com/somyalalwani/VIRTUAL-LABS-Functional-Use-Cases
+* https://github.com/aayushinigam/SSD2
+
 
 ## Branches :
 `master` - Complete work with latest code. <br/> 
