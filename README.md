@@ -11,7 +11,7 @@
 * Aayushi Nigam - 2020201045
 * Anchal Soni - 2020201099
 
-## Project link
+## Project Link
 * `https://ssd-pro-htmjss.glitch.me/`
 * `https://somyalalwani.github.io/VIRTUAL-LABS-Functional-Use-Cases/`
 
