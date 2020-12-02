@@ -253,11 +253,11 @@ function init() {
 
             nodeTemplateMap: myDiagram.nodeTemplateMap,  // share the templates used by myDiagram
             model: new go.GraphLinksModel([  // specify the contents of the Palette
-              { category: "Start", text: "Start" },
-              { text: "Step" },
-              { category: "Conditional", text: "???" },
-              { category: "End", text: "End" },
-              { category: "Comment", text: "Comment" }
+              
+              { category: "Conditional", text: "if/else" },
+              { figure: "Ellipse", text: "Use Case" },
+              { category: "Comment", text: "Comment" },
+              {  figure:"Actor", text:"Actor"}
             ])
           });
 
